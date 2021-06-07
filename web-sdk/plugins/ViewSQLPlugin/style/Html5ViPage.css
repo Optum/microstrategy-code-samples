@@ -1,0 +1,97 @@
+.view-sql-modal {
+  display: none;
+  position: fixed;
+  width: 60%;
+  height: 60%;
+  top: 10%;
+  left: 25%;
+  z-index: 15777271 !important;
+  background-color: #fafafa;
+  box-shadow: #b4b4b4 1px 1px 10px 0;
+  border: solid 1px #ccc;
+  border-radius: 4px;
+  color: #444649;
+  font-size: 11px;
+  text-align: left;
+}
+
+.view-sql-modal-content {
+  position: relative;
+  width: 100%;
+  height: 85%;
+  font-size: 9pt;
+  text-align: left;
+}
+
+.view-sql-modal-header {
+  color: #282A2E;
+  height: 40px;
+  margin: auto;
+  padding-left: 18px;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.view-sql-modal-header-title {
+  position: absolute;
+  width: 95%;
+  padding: 10px 0;
+  text-align: left;
+  font-family: Arial, sans-serif !important;
+  font-size: 9pt;
+  font-weight: bold;
+  overflow: hidden;
+}
+
+.view-sql-modal-body {
+  margin-top: 2%;
+  width: 100%;
+  height: 90%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.view-sql-label {
+  padding-left: 2%;
+}
+
+.view-sql-textarea {
+  width: 80%;
+  height: 85%;
+  margin-left: 10%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.view-sql-modal-bottom-row {
+  width: 100%;
+  float: right;
+  text-align: right;
+  padding-right: 14px;
+  padding-top: 1%;
+}
+
+.view-sql-modal-done-btn {
+  visibility: visible;
+  cursor: pointer;
+  box-shadow: inset 0 0 6px 0 rgba(255, 255, 255, 1);
+  color: #656565;
+  margin: 3px;
+  min-width: 80px;
+  padding: 6px !important;
+  font-size: 11px !important;
+  font-weight: bold;
+  font-family: Arial, sans-serif !important;
+  background: linear-gradient(to bottom, rgba(237, 237, 237, 1) 1%, rgba(228, 228, 228, 1) 100%);
+  height: auto;
+  border: 1px solid gray;
+  border-radius: 3px;
+  outline: 0;
+  text-align: center;
+}
+
+.view-sql-modal-done-btn:hover {
+  color: #4d4d4d;
+  background: #c6c6c6;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e4e4e4', endColorstr='#dcdcdc', GradientType=0);
+}

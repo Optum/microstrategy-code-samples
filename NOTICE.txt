@@ -1,9 +1,9 @@
-<Insert Project Name Here>
+microstrategy-code-samples
 Copyright 2021 Optum
 
 Project Description:
 ====================
-<Short description of your project>
+Code samples relating to any of the MicroStrategy SDKs.
 
 Author(s):
-<List the names and GitHub IDs of the original project authors>
+floverfelt

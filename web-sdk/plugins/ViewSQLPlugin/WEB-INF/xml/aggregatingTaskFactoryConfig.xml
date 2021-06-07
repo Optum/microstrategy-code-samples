@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE aggregatingTaskFactory SYSTEM "aggregatingTaskFactory.dtd">
+<aggregatingTaskFactory>
+  <tasks>
+    <task class="com.mstrweb.viewsql.tasks.ViewSqlTask" registerAs="viewSqlTask"/>
+  </tasks>
+</aggregatingTaskFactory>
