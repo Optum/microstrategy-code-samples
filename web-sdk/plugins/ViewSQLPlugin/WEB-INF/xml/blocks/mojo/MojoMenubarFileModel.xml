@@ -1,0 +1,19 @@
+<!DOCTYPE block SYSTEM "../dtds/blockLibrary.dtd">
+<block name="MojoMenubarFileModel"
+       inherits="MojoToolbarButtonModel">
+  <assignments>
+    <property name="n">file</property>
+    <property name="desc">{desc:mstrWeb.489|File}</property>
+    <property name="pm">1</property>
+    <property name="items">
+      <list>
+        <!-- change listItem here to be where you want it in the file list -->
+        <block name="MojoToolbarButtonModel" listAction="add" listItem="8">
+          <property name="n">viewSql</property>
+          <property name="desc">View SQL</property>
+          <property name="cmd">viewSql</property>
+        </block>
+      </list>
+    </property>
+  </assignments>
+</block>
