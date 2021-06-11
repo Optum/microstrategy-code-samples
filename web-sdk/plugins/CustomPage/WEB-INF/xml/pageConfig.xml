@@ -1,0 +1,13 @@
+<framework>
+  <pages>
+    <page desc="Custom Page" login-required="true" name="customPage" persist-mode="8" track="false" >
+      <templates>
+        <template XMLmerge_id="1" error-desc="" error-title-id="mstrWeb.1167" file-name="/jsp/mstrWeb.jsp">
+          <page-sections>
+            <page-section file-name="/plugins/CustomPage/jsp/CustomPage.jsp" name="content" />
+          </page-sections>
+        </template>
+      </templates>
+    </page>
+  </pages>
+</framework>
